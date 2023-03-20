@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "types": ["node"],
+    "baseUrl": ".",
+    "paths": {
+      "$pages/*": ["src/pages/*"],
+      "$containers/*": ["src/containers/*"],
+      "$constants/*": ["src/constants/*"]
+    },
+    "composite": true,
+    "module": "ESNext",
+    "moduleResolution": "Node"
+  },
+  "include": ["vite.config.ts", "src", "src/*/*.ts", "src/*/*.svelte"],
+  "exclude": ["node_modules"]
+}
