@@ -1,5 +1,11 @@
 # Svelte + TS + Vite
 
+## Initial Project
+
+- pnpm install
+- pnpm run dev
+- open `localhost:3000`
+
 This template should help get you started developing with Svelte and TypeScript in Vite.
 
 ## Recommended IDE Setup
